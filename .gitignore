@@ -1,0 +1,30 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Environment
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Data files (IMPORTANT)
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# Export files
+powerbi_latest.csv
+powerbi_history_export.csv
+stock_price_history.csv
+
+# Test files
+testi.py
+
