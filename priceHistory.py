@@ -11,7 +11,7 @@ from tickers import tickers
 conn = sqlite3.connect("omxh_quant.db", timeout=30)
 cursor = conn.cursor()
 
-# 🔥 IMPORTANT: enables concurrent reads/writes
+# IMPORTANT: enables concurrent reads/writes
 cursor.execute("PRAGMA journal_mode=WAL;")
 
 # =========================
